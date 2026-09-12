@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+checkpoints/
+logs/
+*.zip
+mujoco_menagerie/
+anymal_model/
+MUJOCO_LOG.TXT
+.DS_Store
