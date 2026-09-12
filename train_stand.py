@@ -16,10 +16,10 @@ from stable_baselines3.common.callbacks import CheckpointCallback
 
 from anymal_env import AnymalStandEnv
 
-XML_PATH = "anymal_model/scene.xml"
+XML_PATH = "mujoco_menagerie/anybotics_anymal_c/scene.xml"
 
 TOTAL_TIMESTEPS = 2_000_000   # punto di partenza ragionevole per un task semplice
-N_ENVS = 4                     # quanti ambienti in parallelo (CPU-bound, non serve GPU)
+N_ENVS = 2                     # quanti ambienti in parallelo (CPU-bound, non serve GPU)
 
 
 def make_env():
